@@ -5,6 +5,38 @@
 }
 
 body {
-    background-color: var(--tg-theme-bg-color, bisque);
-    color: var(--tg-theme-text-color, darkslategray);
+    background-color:cadetblue;
+}
+
+.bg_color{
+    background-color: var(--tg-theme-bg-color);
+}
+
+.text_color {
+    background-color: var(--tg-theme-text-color);
+}
+
+.hint_color {
+    background-color: var(--tg-theme-hint-color);
+}
+
+.link_color {
+    background-color: var(--tg-theme-link-color);
+}
+
+.button_color {
+    background-color: var(--tg-theme-button-color);
+}
+
+.button_text_color {
+    background-color: var(--tg-theme-button-text-color);
+}
+
+.secondary_bg_color {
+    background-color: var(--tg-theme-secondary-bg-color);
+}
+
+div {
+    width: 150px;
+    height: 150px;
 }
